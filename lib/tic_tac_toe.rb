@@ -54,6 +54,7 @@ def turn
     turn
   end
 end
+
 def turn_count
   turn = 0
   @board.each do |index|
@@ -106,6 +107,7 @@ def over?
     return false
   end
 end
+
 def winner
   index = []
   index = won?
